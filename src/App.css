@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+div{
+  font-family: 'Epilogue', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+
+.myabout-images{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.about-content-text{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.3vw;
+  margin-top: 30vw;
+  margin-left: 10vw;
+  left: 0;
+  top: 0;
+}
+
+.about-content-text span{
+  color: #51E8EF;
+  margin-bottom: 5vw;
+}
+
+.about-content-text p{
+  color: #918F8F;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+
+.content-container{
+  width:40%;
+}
+
+.content-container span{
+  color:white;
+  font-family:'pilat';
+  cursor: pointer;
+}
+
+.content-container p{
+  font-family:'Rajdhani';
+  margin-bottom: 250px;
+  color: #918F8F;
+}
+
+.content-container span img{
+  margin-left: -55px;
+  margin-right: 10px;
+}
+
+.content-container ul {
+  list-style: none;
+  color: #918F8F;
+  font-family:'Rajdhani';
+  font-weight: 600;
+}
+
+.content-container ul li::before {
+  content: "\2022";
+  color: #51E8EF;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+.lastdiv i{
+  color: #fff;
+  border: 1px solid #51E8EF;
+  padding: 25px;
+  border-radius: 100px;
+  transition: linear 0.5s;
+  cursor: pointer;
+}
+
+.lastdiv p{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.6vw;
+  font-family: 'pilat';
+  width: 50%;
+  margin-left:-80px;
+  margin-top: 15px;
+}
+
+.lastdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: #fff;
+  margin-top: 33%;
+  margin-left:-80px;
+}
+
+.lastdiv i:hover{
+  color: #000;
+  background-color: #51E8EF;
+}
+
+.mysecondcontainer{
+  width: 100%;
+  position: absolute;
+  left:100%;
+  top: 0%;
+  transition: ease-in-out 1s;
+  
+}
+
+.fa-angle-left{
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.fa-angle-left:hover::after{
+  color: #51E8EF;
+  content: 'back';
+  position: absolute;
+  padding: 0px 22px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Rajdhani';
+  font-size: 20px;
+  
+}
+
+.fa-angle-left:hover{
+  color:#51E8EF;
+  border: 1px solid #51E8EF;
+  transition: ease-in-out 1s;
+  border-radius: 100px;
+}
+
+.bg-image{
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  transition: ease-in-out 1s;
+}
+
+
+.position-absolute{
+  height: 100px;
+  left: 10%;
+  top: 1%;
+  transition: ease-in-out 1s;
+}
+
+.d-flex{
+  margin-top: 20px;
+  width: 60%;
+  float: right;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.d-flex>li{
+  cursor: pointer;
+}
+
+.col-2{
+  cursor: pointer;
+}
+
+
+.fuck:hover{
+  color: #51E8EF;
+}
+
+
+.header-body{
+  top: 35%;
+  left: 10%;
+  width: 25%;
+  position: absolute;
+  color: white;
+  text-align:start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+
+
+.header-body>span{
+  font-size: 3.5vw;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: 'pilat', sans-serif;
+}
+
+.header-body>h1{
+  color: #51E8EF;
+  font-family: 'pilat';
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 5vw;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+
+.header-body>p{
+  color: #5b5f5fe3;
+  font-family: 'pilat';
+  font-weight: 800;
+  font-size: 0.9vw;
+  width: 90%;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.header-body>button {
+  position: relative;
+  font-size: 0.7vw;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  border: none;
+  padding: 9px 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 25px;
+  font-family: 'pilat', sans-serif;
+  background-color: transparent;
+  font-weight: 700;
+  letter-spacing: 5px;
+  transition: ease-in-out 1s;
+}
+
+.header-body>button::after,
+.header-body>button::before {
+  content: " ";
+  position: absolute;
+  width: 60%;
+  height: 45%;
+  border: 2px solid #51E8EF;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+}
+.header-body>button::after {
+  bottom: 0;
+  right: 0;
+  border-radius: 15px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.header-body>button::before {
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+.header-body>button:hover::after,
+.header-body>button:hover::before {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+
+.footer-body{ 
+  position: absolute;
+  left: 40%;
+  top: 90%;
+}
+
+.footer-body>img{
+  width: 50vw;
+}
+
+.ico{
+  left: 42%;
+  top: 60%;
+  position: absolute;
+  background-color:#00050580;
+  border-radius: 100px;
+  transition: all ease-in-out 1s;
+  display: flex;
+  flex-direction: row;
+}
+.ico>img{
+  width: 4vw;
+  opacity: 0.5;
+  padding: 10px;
+}
+
+.ico>img:hover{
+  opacity: 1;
+  background-color:#00050580;
+  border-radius: 100px;
+  transform: scale(1.1) ;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+
+
+.ico1{
+  left: 58%;
+  top: 50%;
+  position: absolute;
+  background-color:#00050580;
+  border-radius: 100px;
+  transition: all ease-in-out 1s;
+  display: flex;
+  flex-direction: row;
+}
+.ico1>img{
+  width:4vw;
+  opacity: 0.5;
+  padding: 10px;
+}
+
+.ico1>img:hover{
+  opacity: 1;
+  background-color:#00050580;
+  border-radius: 100px;
+  transform: scale(1.1);
+  transition: all ease-in-out 1s;
+  cursor: pointer;
+}
+
+
+
+.ico2{
+  left: 65%;
+  top: 17%;
+  position: absolute;
+  background-color:#00050580;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  transition: all ease-in-out 1s;
+}
+.ico2>img{
+  width: 4vw;
+  opacity: 0.5;
+  padding: 10px;
+}
+
+.ico2>img:hover{
+  opacity: 1;
+  background-color:#00050580;
+  border-radius: 100px;
+  transform: scale(1.1);
+  transition: all ease-in-out 1s;
+  cursor: pointer;
+}
+.ourpara{
+  color: #fff;
+  font-size: 1.15vw;
+  width: 0px;
+  overflow: hidden;
+  margin: auto;
+  transition:linear 1s;
+  white-space: nowrap;
+}
+
+.ico>img:hover ~ .ourpara{
+  width: 10vw;
+  margin-left: 30px;
+}
+
+
+.ico1>img:hover ~ .ourpara{
+  width: 14vw;
+  margin-left: 20px;
+}
+
+
+.ico2>img:hover ~ .ourpara{
+  width: 10vw;
+  margin-left: 30px;
+}
+
+
+
+.ico3>img:hover ~ .ourpara{
+  width: 14vw;
+  margin-left: 20px;
+}
+
+.ico3{
+  left: 78%;
+  top: 40%;
+  position: absolute;
+  background-color:#00050580;
+  border-radius: 100px;
+  transition: all ease-in-out 1s;
+  display: flex;
+  flex-direction: row;
+}
+.ico3>img{
+  width: 4vw;
+  opacity: 0.5;
+  padding: 10px;
+}
+
+.ico3>img:hover{
+  opacity: 1;
+  background-color:#00050580;
+  border-radius: 100px;
+  transform: scale(1.1);
+  transition: all ease-in-out 1s;
+  cursor: pointer;
+}
+
+
+
+
+
+/* Underline From Center */
+.fuck {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  padding: 0px 3px;
+  text-decoration: none;
+  color: #fff;
+  
+}
+.fuck:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #51E8EF;
+  height: 1px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  border-bottom: 1px solid #51E8EF;
+}
+.fuck:hover:before,
+.fuck:focus:before, .fuck:active:before {
+  left: 0;
+  right: 0;
+  
+}
+
+
