@@ -53,8 +53,8 @@ class FirstPage extends React.Component {
                       <img src={logo1} alt="#" className="float-start col-2 mt-3"/>
                       <div className="float-start text-white col-10 mt-4">
                         <ul className="d-flex flex-direction-row list-unstyled">
-                          <li><a className="fuck" href="markosbahgat.com">BIKES</a></li>
-                          <li><a className="fuck" href="markosbahgat.com">SERVICES</a></li>
+                          <li><a className="fuck" href="http://www.markosbahgat.com" rel="noreferrer" target="_blank">BIKES</a></li>
+                          <li><a className="fuck" href="http://www.markosbahgat.com" rel="noreferrer"  target="_blank">SERVICES</a></li>
                           <li><a className="fuck" href="/about">ABOUT</a></li>
                         </ul>
                       </div>

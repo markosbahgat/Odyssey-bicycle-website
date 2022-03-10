@@ -12,7 +12,7 @@ class App extends Component {
 
   render() { 
     return <BrowserRouter>
-      <Route exact path="/about">
+      <Route  path="/about">
         <About/>
       </Route>
     <div style={{position:"absolute", width:"100%",height:"100vh" , overflow:"hidden"}}>
